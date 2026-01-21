@@ -1,0 +1,22 @@
+{
+    "name": "vellora-health-website",
+    "version": "1.0.0",
+    "description": "Vellora Health - Workers' Compensation & Personal Injury Medical Services",
+    "scripts": {
+          "start": "eleventy --serve",
+          "build": "eleventy",
+          "debug": "DEBUG=Eleventy* eleventy"
+    },
+    "keywords": [
+          "vellora-health",
+          "workers-compensation",
+          "personal-injury",
+          "medical"
+    ],
+    "author": "Vellora Health",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+          "@11ty/eleventy": "^2.0.1"
+    }
+}
